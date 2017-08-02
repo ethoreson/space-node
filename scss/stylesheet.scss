@@ -1,0 +1,27 @@
+$astroSquare : 15%;
+
+.astros-in-space{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: $astroSquare $astroSquare $astroSquare $astroSquare $astroSquare $astroSquare;
+}
+
+.astronaut img {
+  width: 60px;
+  height: 85px;
+  margin-left: 60px;
+  // transform: scaleX(-1);
+  // filter: FlipH;
+}
+
+.astros-in-space .astronaut img :nth-child(3n) {
+  transform: rotate(25deg);
+}
+
+h4 {
+  font-size: 14px;
+}
+
+#iss-text {
+  font-size: 16px;
+}
