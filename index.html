@@ -8,14 +8,87 @@
     <script type="text/javascript" src="build/js/app.js"></script>
     <title></title>
   </head>
-  <body>
-    <h1 id="total-astros">Astronauts in space:</h1>
-    <div class="astros-in-space">
-    </div>
-    <h1 id="iss-now"><span id="iss-text">The International Space Station is currently orbiting over:<br></span></h1><hr>
-    <h1>Next five shuttle launches:</h1>
-    <div class="space-launch">
+  <body id="page-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Space Node</a>
+                </div>
 
-    </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#welcome">Welcome</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#astronauts">Astronauts</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#iss">ISS</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#launches">Shuttle Launches</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+      <section id="welcome" class="welcome-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="jumbotron">
+                <h1>Space Node</h1>
+                <p>Filler. This is where info about our site will go.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="astronauts" class="astros-section">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                <h1 id="total-astros">Astronauts in space:</h1>
+                <div class="astros-in-space">
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section id="iss" class="iss-section">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                <h1 id="iss-now"><span id="iss-text">The International Space Station is currently orbiting over:<br></span></h1><hr>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section id="launches"class="launches-section">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                <h1>Next five shuttle launches:</h1>
+                <div class="space-launch">
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
   </body>
 </html>
