@@ -2,9 +2,19 @@ $astroSquare : 25%;
 
 $menuLi : 35%;
 
+$color1 : #b6e3ff;
+
 #li-grid{
   display: grid;
   grid-template-columns: $menuLi $menuLi $menuLi $menuLi $menuLi $menuLi;
+}
+
+#li-grid a {
+  color: white;
+}
+
+#li-grid li {
+  border-left: solid 2px $color1;
 }
 
 .astros-in-space{
@@ -62,6 +72,19 @@ h4 {
   font-size: 20px;
 }
 
+.jumbo {
+  color: white;
+  margin-top: -30px;
+}
+
+.welcome-header {
+  font-size: 8em;
+  text-shadow: 1.5px 1.5px $color1;
+}
+
+.welcome-subheader {
+  font-size: 2em;
+}
 
 // cool page scrolling
 
@@ -103,6 +126,9 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    background-image: url("./../../images/earth1.jpg");
+    background-repeat: none;
+    background-size: cover;
 }
 
 .astros-section {
@@ -117,6 +143,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    background-image: url("./../../images/ISS1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .launches-section {
