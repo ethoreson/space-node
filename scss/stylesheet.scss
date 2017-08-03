@@ -1,21 +1,36 @@
-$astroSquare : 17%;
+$astroSquare : 25%;
 
 .astros-in-space{
   display: grid;
-  grid-gap: 15px;
-  grid-template-columns: $astroSquare $astroSquare $astroSquare $astroSquare $astroSquare $astroSquare;
+  grid-gap: 2px;
+  grid-template-columns: $astroSquare $astroSquare $astroSquare;
+  grid-template-rows: 300px 300px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .astronaut img {
-  width: 60px;
-  height: 85px;
+  width: 100px;
+  height: 125px;
   margin-left: 60px;
-  // transform: scaleX(-1);
-  // filter: FlipH;
+
 }
 
-.astros-in-space .astronaut img :nth-child(3n) {
-  transform: rotate(25deg);
+.astronaut:nth-child(2n) img{
+  transform: rotate(30deg);
+}
+
+.astronaut:nth-child(4n) img{
+   transform: scaleX(-1);
+   filter: FlipH;
+}
+
+.astronaut:nth-child(5n) img{
+  transform: rotate(150deg);
+}
+
+.astronaut img :nth-child(3n) {
+  transform: rotate(90deg);
 }
 
 h4 {
@@ -29,6 +44,11 @@ h4 {
 .main-content {
   margin-top: 100px;
 }
+
+#astronauts {
+  margin-left: 400px;
+}
+
 
 // cool page scrolling
 
