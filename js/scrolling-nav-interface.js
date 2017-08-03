@@ -17,7 +17,3 @@ $(function() {
         event.preventDefault();
     });
 });
-
-$(document).ready(function(){
-  console.log("working");
-});

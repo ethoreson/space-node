@@ -63,7 +63,8 @@ h4 {
 }
 
 #astronauts {
-  margin-left: 400px;
+  padding-left: 400px;
+  padding-top: 200px;
 }
 
 .page-scroll {
@@ -135,7 +136,12 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: left;
-    background: #fff;
+    background: #eee;
+    background-image: url("./../../images/stars.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+    opacity: .95;
+    color: white;
 }
 
 .iss-section {
@@ -154,4 +160,13 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: left;
     background: #fff;
+    background-image: url("./../../images/nebula.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color1;
+}
+
+#launches {
+  background-color: #090909;
+  overflow-y: scroll;
 }
