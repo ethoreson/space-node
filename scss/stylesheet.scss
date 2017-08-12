@@ -1,12 +1,12 @@
 $astroSquare : 25%;
 
-$menuLi : 35%;
+$menuLi : 48%;
 
 $color1 : #b6e3ff;
 
 #li-grid{
   display: grid;
-  grid-template-columns: $menuLi $menuLi $menuLi $menuLi $menuLi $menuLi;
+  grid-template-columns: $menuLi $menuLi $menuLi $menuLi $menuLi;
 }
 
 #li-grid a {
@@ -23,7 +23,11 @@ $color1 : #b6e3ff;
   grid-template-columns: $astroSquare $astroSquare $astroSquare;
   grid-template-rows: 300px 300px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
+}
+
+.container-fluid {
+  margin-left: -100px;
 }
 
 .astronaut img {
@@ -64,11 +68,11 @@ h4 {
 
 #astronauts {
   padding-left: 400px;
-  padding-top: 200px;
+  padding-top: 50px;
 }
 
 .page-scroll {
-  margin-left: 85px;
+  margin-left: 10px;
   width: 10%;
   font-size: 20px;
 }
@@ -79,7 +83,9 @@ h4 {
 }
 
 .welcome-header {
-  font-size: 8em;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 6em;
   text-shadow: 1.5px 1.5px $color1;
 }
 
@@ -107,7 +113,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 0px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -124,7 +130,8 @@ of those sections to manage the look and feel of the site. */
 
 .welcome-section {
     height: 100%;
-    padding-top: 150px;
+    width: 100%;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
     background-image: url("./../../images/earth1.jpg");
@@ -146,7 +153,7 @@ of those sections to manage the look and feel of the site. */
 
 .iss-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 60px;
     text-align: center;
     background: #eee;
     background-image: url("./../../images/ISS1.jpg");
